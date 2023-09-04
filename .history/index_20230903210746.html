@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="hero">
+        <h3 class="title">Albin Sabu</h3>
+        <ul>
+            <li class><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a> </li>
+        </ul>
+        
+        <button class="btn-connect">connect</button>
+    </nav>
+    <nav id="hamburger-nav">
+        <div clas="logo"> ALBIN SABU</div>
+        
+        <button class="btn-connect">connect</button>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="menu-links">
+                <li class><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a> </li>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+    </nav>
+    <div class="portfolio__body">
+        <div id="home">
+        
+            <div class="profile__text">
+        
+                <p>Full Stack Developer</p>
+                <h1>Albin Sabu</h1>
+                <div class="profile__detail">
+                    <span class="line"> </span>
+                    <p class="profile__detail__p2">I'm a full stack web developer and I work remotely from India</p>
+        
+                </div>
+        
+            </div>
+            <div class="profile__img">
+                <img src="./assets/albin.png" class="profile" alt="profile">
+                <div class="cv__btn" onclick="window.open('./assets/ALBIN SABU.pdf')">
+                    <p>download</p>
+                    <img src="./assets/cv.png" alt="cv" class="cv">
+                </div>
+            </div>
+        
+            <div class="profile__links">
+                <img src="./assets/linkedin.png" alt="">
+                <img src="./assets/github.png" alt="">
+                <img src="./assets/whatsapp.png" alt="">
+                <img src="./assets/insta.png" alt="">
+            </div>
+        </div>
+        <div id="about">
+            <div class="about__header">
+                <p>Explore more</p>
+                <h1 class="title">About Me</h1>
+            </div>
+            <div class="about__container">
+                <div class="about__img">
+                    <img src="./assets/about-pic.png" alt="">
+                </div>
+                <div class="about__details">
+                    <p>Greetings! I'm Albin Sabu, a dedicated Fullstack developer and final year Computer Science Engineering
+                        student. Hailing
+                        from the serene landscapes of Kottayam, Kerala, India, I'm driven by a love for learning, a passion for
+                        playing
+                        football, and traveling. My skill set encompasses rapid learning, astute critical thinking, and adept
+                        problem-solving.
+                        I'm poised to create meaningful contributions in the world of development.</p>
+                </div>
+            </div>
+        
+        
+        </div>
+        <div id="skill">
+            <h1 class="title">Skills</h1>
+            
+                <div class="skill__img">
+                    <div class="div">
+                        <img src="./assets/c.png" alt="skill" class="grid_1">
+                        <img src="./assets/cpp.png" alt="skill" class="grid_2">
+                        <img src="./assets/html.png" alt="skill" class="grid_3">
+                    </div >
+                   <div class="div">
+                        <img src="./assets/css-3.png" alt="skill" class="grid_4">
+                        <img src="./assets/js.png" alt="skill" class="grid_5">
+                        <img src="./assets/nodejs.png" alt="skill" class="grid_6">
+                   </div>
+                    <div class="div">
+                        <img src="./assets/next.png" alt="skill" class="grid_7">
+                        <img src="./assets/mongodb.png" alt="skill" class="grid_8">
+                        <img src="./assets/React.png" alt="skill" class="grid_9">
+                    </div>
+                    <div class="div">
+                        <img src="./assets/express.png" alt="skill" class="grid_7">
+                        <img src="./assets/tailwind.png" alt="skill" class="grid_8">
+                        <img src="./assets/rebase.png" alt="skill" class="grid_9">
+                    </div>
+                    
+                    
+                </div>
+
+           
+
+        </div>
+        <div id="project">
+            <h1>Project</h1>
+            <div class="project__container">
+                <div class="project__img">
+                    <img src="./assets/chatgpt-next.png" alt="">
+                </div>
+                <div class="project__details">
+                    <h3>Proname</h3>
+                    <p>year/description</p>
+                </div>
+                <button>know more</button>
+            </div>
+           
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

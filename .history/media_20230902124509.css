@@ -1,0 +1,8 @@
+@media  screen and (max-width:600px) {
+    nav ul{
+        flex-direction: column;
+        display: none;
+
+    }
+    -ms-hyphenate-limit-zone: ;
+}

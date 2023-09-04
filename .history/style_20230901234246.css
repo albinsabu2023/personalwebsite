@@ -1,0 +1,7 @@
+nav{
+    height: 10vh;  
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}

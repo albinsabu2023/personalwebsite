@@ -1,0 +1,28 @@
+@media  screen and (max-width:600px) {
+    nav ul{
+        flex-direction: column;
+        display: none;
+
+    }
+    #home{
+        margin: 4px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .profile__text{
+        width:80vw;
+    }
+    .profile__text p{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:600px){
+    #home {
+            margin: 4px;
+            flex-direction: column;
+            flex-wrap: wrap;
+    
+        }
+}

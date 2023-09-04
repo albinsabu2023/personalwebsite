@@ -1,0 +1,20 @@
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    
+}
+nav ul li:hover{
+    background: gray;
+    
+}
+nav ul li{
+    padding: 1rem;
+    background: rgb(206, 206, 206);
+    border-radius: 1rem;
+    width: 5rem;
+    text-align: center;
+}
+

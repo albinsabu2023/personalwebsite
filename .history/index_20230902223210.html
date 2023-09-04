@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="hero">
+        <h3 class="title">Albin Sabu</h3>
+        <ul>
+            <li class><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a> </li>
+        </ul>
+        
+        <button class="btn-connect">connect</button>
+    </nav>
+    <nav id="hamburger-nav">
+        <div clas="logo"> ALBIN SABU</div>
+        
+        <button class="btn-connect">connect</button>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="menu-links">
+                <li class><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a> </li>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+    </nav>
+    <div id="home">
+        
+        <div class="profile__text">
+            
+            <p>Full Stack Developer</p>
+            <h1>Albin Sabu</h1>
+            <div class="profile__detail">
+                <span class="line"> </span>
+                <p class="profile__detail__p2">I'm a full stack web developer and I work remotely from India</p>
+                
+            </div>
+            
+        </div>
+        <div class="profile__img">
+            <img src="./assets/albin.png" class="profile" alt="profile">
+            <div class="cv__btn" onclick="window.open('./assets/ALBIN SABU.pdf')">
+                <p>download</p>
+                <img src="./assets/cv.png" alt="cv" class="cv">
+            </div>
+        </div>
+        
+        <div class="profile__links">
+            <img src="./assets/linkedin.png" alt="">
+            <img src="./assets/github.png" alt="">
+            <img src="./assets/whatsapp.png" alt="">
+            <img src="./assets/insta.png" alt="">
+        </div>
+    </div>
+    <div id="about">
+        <div class="about__container">
+            <p>Explore more</p>
+            <h3>About Me</h3>
+            <div class="avout__img">
+
+            </div>
+            <div class="about__details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas esse, deleniti, placeat harum quis voluptate itaque modi architecto quas, ullam vitae consectetur magni incidunt possimus! Corporis incidunt doloribus ullam maxime? Sunt cum tempora harum temporibus doloribus praesentium quidem adipisci debitis. Ea voluptate repellat libero, ipsa quod, quaerat, itaque odit impedit aliquid qui est quos cum! Corrupti hic saepe consequatur facere eligendi excepturi voluptatum deleniti et exercitationem, quis in, obcaecati accusamus vero reprehenderit eos dignissimos molestias. Hic ut perferendis consequatur eveniet aperiam, qui corporis saepe neque rem perspiciatis assumenda cum cupiditate autem officiis laudantium incidunt reiciendis. Cupiditate praesentium atque mollitia porro!</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

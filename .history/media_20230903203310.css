@@ -1,0 +1,136 @@
+@media  screen and (max-width:600px) {
+    body{
+        background-size:cover;
+    }
+
+    #hero{
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+       
+
+    }
+    #home{
+        margin: 4px;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    
+    #hamburger-nav {
+         display: flex;
+
+    }
+   
+    .profile__text{
+        width:80vw;
+    }
+    .profile__text p{
+        font-size: small;
+    }
+    .profile__text h1{
+        font-size: 60px;
+    }
+   
+    .profile__img .cv__btn img{
+    width: 30px;
+    height: 30px;
+    
+    top: 36rem;
+    }
+    .profile__img .cv__btn:hover {
+        background: none;
+    }
+    
+    .profile__img img{
+        padding: 3rem;
+       width: 200px;
+       height: 200px;
+    }
+    .profile__links{
+        display: flex;
+        flex-direction: row;
+    }
+    
+        .profile__img .cv__btn p {
+            display: none;
+            
+        }
+        .profile__img .cv__btn{
+            background: none;
+        }
+        .about__container{
+            flex-direction: column;
+            
+        }
+        .about__container img{
+            width: 200px;
+            height: 180px;
+            border-radius: 1rem;
+            margin: 0;
+        }
+         
+        .about__details{
+            width: 100%;
+        }
+       
+        .about__details p {
+            font-size: small;
+
+        }
+    .skill__img img {
+        width: 60px;
+        height: 60px;
+    }
+    #skill  h1{
+        margin-bottom: 30px;
+    }
+    
+    .skill__container{
+        padding: 2px;
+      
+    }
+
+}
+
+@media screen and (max-width:1200px){
+    #home {
+            margin: 4px;
+            flex-direction: column;
+    
+        }
+        .profile__links {
+            display: flex;
+            flex-direction: row;
+        }
+        
+}
+@media screen and (max-width:400px) {
+    #home {
+        margin: 4px;
+        flex-direction: column;
+
+    }
+
+    .profile__links {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem;
+    }
+        .profile__img img {
+            align-items: center;
+        }
+    .profile__img .cv__btn img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 36rem;
+    }
+    .profile__img .cv__btn p{
+        display: none;
+    }
+       
+}

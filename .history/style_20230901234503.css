@@ -1,0 +1,19 @@
+nav{
+    height: 10vh;  
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul li:hover{
+    background: gray;
+    
+}
+nav ul li{
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 5rem;
+    justify-content: center;
+}

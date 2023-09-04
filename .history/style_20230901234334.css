@@ -1,0 +1,13 @@
+nav{
+    height: 10vh;  
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+nav ul li:hover{
+    background: gray;
+    
+}
