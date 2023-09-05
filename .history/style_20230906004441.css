@@ -20,8 +20,8 @@ nav{
     display: flex;
     padding: 1rem;
     margin: 4px;
-    background-color: rgba(38, 38, 38, 0.3);
-    border-radius: 1rem;
+    background-color: rgba(70, 70, 70, 0.3);
+    
     justify-content: space-between;
    
     
@@ -163,9 +163,7 @@ nav ul li a:hover{
    
 }
 .profile__links img:hover{
-    /* background: rgb(168, 168, 168,0.5); */
-    box-shadow: 5px 5px  10px  #08bbe3;
-
+    background: rgb(168, 168, 168,0.5);
 }
 #hamburger-nav {
     display: none;

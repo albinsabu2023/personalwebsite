@@ -164,7 +164,7 @@ nav ul li a:hover{
 }
 .profile__links img:hover{
     /* background: rgb(168, 168, 168,0.5); */
-    box-shadow: 5px 5px  10px  #08bbe3;
+    box-shadow: 5px 5px  5px 5px #08bbe3;
 
 }
 #hamburger-nav {
