@@ -160,12 +160,11 @@ nav ul li a:hover{
     border-radius: 10px;
     padding: 1px;
     cursor: pointer;
-    box-shadow: 5px .5px 1px  rgb(17, 149, 138);
  
    
 }
 .profile__links img:hover{
-   
+    /* background: rgb(168, 168, 168,0.5); */
     box-shadow: 5px 5px  10px  #08bbe3;
 
 }
@@ -309,7 +308,6 @@ nav ul li a:hover{
     border-radius:2rem ;
     border: #56828f 1px solid;
     margin: 2rem;
-    
 
 }
 .about__details:hover{
@@ -333,9 +331,7 @@ nav ul li a:hover{
     background-repeat: none;
     background-size: cover;
     align-items: center;
-    background-image: url('./assets/skillbg.png') ;
-  
-    
+   
  }
  .skill__container{
     display: flex;
@@ -346,7 +342,6 @@ nav ul li a:hover{
  }
  #skill h1{
     color: aqua;
-    
     
  }
  .skill__img img{
@@ -360,11 +355,10 @@ nav ul li a:hover{
     transform: scale(1.5);
  }
   .skill__img{
-    background: rgba(100, 100, 100, 0.9);
-    
+    background: rgb(148, 148, 148,0.4);
     padding: 20px;
     border-radius: 10px;
-    z-index: 10;
+    
     display: inline-grid;
     column-gap: 5px;
     row-gap: 5px;
@@ -377,12 +371,9 @@ nav ul li a:hover{
     
   }
   .skill__imge img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     padding: 3rem;
-    opacity: 40%;
-    z-index: 0;
-    
 
   }
 
@@ -486,7 +477,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1px;
+    gap: 3px;
   }
 
   .contact__links img{
@@ -583,10 +574,5 @@ nav ul li a:hover{
    .project__container:hover .layer {
        height: 100%;
    
-   }
-
-   .contact p{
-    font-size: xx-small;
-    padding: 20px;
    }
   

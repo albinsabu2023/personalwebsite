@@ -334,7 +334,7 @@ nav ul li a:hover{
     background-size: cover;
     align-items: center;
     background-image: url('./assets/skillbg.png') ;
-  
+    opacity: 50%;
     
  }
  .skill__container{

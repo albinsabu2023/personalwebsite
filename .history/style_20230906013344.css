@@ -160,7 +160,7 @@ nav ul li a:hover{
     border-radius: 10px;
     padding: 1px;
     cursor: pointer;
-    box-shadow: 5px .5px 1px  rgb(17, 149, 138);
+    box-shadow: 5px 5px 0.5px  white;
  
    
 }
@@ -333,9 +333,8 @@ nav ul li a:hover{
     background-repeat: none;
     background-size: cover;
     align-items: center;
-    background-image: url('./assets/skillbg.png') ;
-  
-    
+    background-image: url('./assets/skillbg.png');
+   
  }
  .skill__container{
     display: flex;

@@ -333,8 +333,7 @@ nav ul li a:hover{
     background-repeat: none;
     background-size: cover;
     align-items: center;
-    background-image: url('./assets/skillbg.png') ;
-  
+    background-image: url('./assets/skillbg.png') ,0.5;
     
  }
  .skill__container{
